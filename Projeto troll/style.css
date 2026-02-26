@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff0000, #d74911);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.game {
+    text-align: center;
+}
+
+.botoes {
+    margin-top: 18px;
+}
+
+button {
+    padding: 30px 55px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: #2748aa;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#mensagem {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 20px yellow, 0 0 40px orange;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#mensagem.ativo {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+body.escuro {
+    background: black;
+    transition: 0.5s;
+}
