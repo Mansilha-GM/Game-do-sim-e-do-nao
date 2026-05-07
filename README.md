@@ -1,4 +1,4 @@
-# Jogo Interativo — EU GANHEI!
+# Jogo Interativo
 
 Um mini game desenvolvido com HTML, CSS e JavaScript puro, onde o botão “Não” foge do usuário e, ao clicar em “Sim”, uma celebração com fogos de artifício toma conta da tela.
 
